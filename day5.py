@@ -9,6 +9,7 @@
 # [T] [W] [N] [R] [F] [R] [B] [J] [P]
 # [Z] [G] [J] [J] [W] [S] [H] [S] [G]
 #  1   2   3   4   5   6   7   8   9 
+
 from collections import defaultdict
 stack = defaultdict(list)
 stack['1'] = ['Z','T','F','R','W','J','G']
