@@ -46,11 +46,6 @@ for x,y,z in (grid.keys()):
     ylist.append(y)
     zlist.append(z)
     
-
-def neighbours(x,y,z): 
-    return [(x+dx, y+dy, z+dz) for (dx,dy,dz) in 
-            [(1,0,0),(-1,0,0),(0,1,0),(0,-1,0),(0,0,1),(0,0,-1)]]
-
 import numpy as np
 lava= np.zeros(shape=(max(xlist)+2,max(ylist)+2,max(zlist)+2))
 
